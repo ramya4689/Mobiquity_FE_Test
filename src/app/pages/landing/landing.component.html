@@ -1,0 +1,18 @@
+<div class="parentDiv" style="height:100vw">
+  <table class="tableStyle">
+    <tr>
+      <th>City</th>
+      <th><p class="m-0">Temperature</p><p class="m-0">(in <sup>o</sup>C)</p></th>
+      <th>Sunrise Time</th>
+      <th>Sunset Time</th>
+    </tr>
+    <tr *ngFor="let val of totalData">
+      <td [routerLink]="['/details', val.city]" class="clickStyle">{{val.city}}</td>
+      <td>{{val.temp}}</td>
+      <td>{{val.sunrise}}</td>
+      <td>{{val.sunset}}</td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+</table>
+</div>

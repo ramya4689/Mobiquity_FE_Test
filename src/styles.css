@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.parentDiv {
+  height: 100vw;
+  position: relative;
+  background-image: url('assets/bg-2.jpg');
+  }
+  .tableStyle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid darkgrey !important;
+    padding: 8px;
+    text-align: center !important;
+  }
+  
+
+  td{
+      cursor: pointer;
+  }
+  th{
+    background-color: #1097e9
+  }
+  .clickStyle{
+    text-decoration: underline;
+    color: blue !important;
+  }
+  tr{
+    background-color: lightblue;
+  }
+  .color-white{
+    color: white;
+  }
